@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="yaap"
+           fetch="https://github.com/yaap"
+           revision="refs/heads/fourteen" />
+
+  <project path="device/xiaomi/sunny" remote="github" name="CalyxOS-sm6150/device_xiaomi_sunny" revision="android14" />
+  <project path="vendor/xiaomi/sunny" remote="github" name="CalyxOS-sm6150/device_xiaomi_sunny" revision="android14" />
+
+  <project path="kernel/xiaomi/sunny" name="android_kernel_xiaomi_sunny" remote="Neternels" revision="staging"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="github" name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="12.0.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="github" name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" revision="12.0.0" />
+  <project path="packages/apps/DisplayFeatures" remote="github" name="cyberknight777/android_packages_apps_DisplayFeatures" revision="master" />
+  <project path="device/qcom/common" remote="yaap" name="device_qcom_common" />
+  <project path="vendor/qcom/common" remote="gitlab" name="YAOSP/vendor_qcom_common" revision="fourteen" />
+  <project path="device/qcom/qssi" remote="github" name="AOSPA/android_device_qcom_qssi" revision="uvite" />
+  <project path="vendor/qcom/opensource/core-utils" remote="yaap" name="vendor_qcom_opensource_core-utils" />
+  <project path="packages/apps/KProfiles" remote="github" name="KProfiles/android_packages_apps_KProfiles" revision="main" />
+</manifest>
