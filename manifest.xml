@@ -12,7 +12,7 @@
            revision="refs/heads/fourteen" />
 
   <project path="device/xiaomi/sunny" remote="github" name="CalyxOS-sm6150/device_xiaomi_sunny" revision="android14" />
-  <project path="vendor/xiaomi/sunny" remote="github" name="CalyxOS-sm6150/device_xiaomi_sunny" revision="android14" />
+  <project path="vendor/xiaomi/sunny" remote="github" name="CalyxOS-sm6150/vendor_xiaomi_sunny" revision="android14" />
 
   <project path="kernel/xiaomi/sunny" remote="yaap" name="kernel_xiaomi_sunny" revision="fourteen" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="github" name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="12.0.0" />
