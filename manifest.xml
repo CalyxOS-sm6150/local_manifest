@@ -18,6 +18,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="github" name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="12.0.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="github" name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" revision="12.0.0" />
   <project path="packages/apps/DisplayFeatures" remote="github" name="cyberknight777/android_packages_apps_DisplayFeatures" revision="master" />
+  <project path="vendor/clocks" remote="github" name="CalyxOS-sm6150/vendor_clocks" revision="android14" />
   <project path="device/qcom/common" remote="yaap" name="device_qcom_common" />
   <project path="vendor/qcom/common" remote="gitlab" name="YAOSP/vendor_qcom_common" revision="fourteen" />
   <project path="device/qcom/qssi" remote="github" name="AOSPA/android_device_qcom_qssi" revision="uvite" />
